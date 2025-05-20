@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="64" fill="#4F46E5"/>
+
+  <!-- 填字游戏格子 - 简约现代风格 -->
+  <g>
+    <!-- 主格子 - 白色 -->
+    <rect x="128" y="128" width="256" height="256" rx="24" fill="#F8FAFC"/>
+
+    <!-- 深色方块 -->
+    <rect x="128" y="128" width="85" height="85" rx="8" fill="#3730A3"/>
+    <rect x="299" y="128" width="85" height="85" rx="8" fill="#3730A3"/>
+    <rect x="128" y="299" width="85" height="85" rx="8" fill="#3730A3"/>
+    <rect x="299" y="299" width="85" height="85" rx="8" fill="#3730A3"/>
+
+    <!-- 字母 -->
+    <text x="256" y="256" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">C</text>
+  </g>
+
+  <!-- 装饰元素 - 角落圆点 -->
+  <circle cx="96" cy="96" r="24" fill="#60A5FA"/>
+  <circle cx="416" cy="96" r="24" fill="#A78BFA"/>
+  <circle cx="96" cy="416" r="24" fill="#A78BFA"/>
+  <circle cx="416" cy="416" r="24" fill="#60A5FA"/>
+</svg>

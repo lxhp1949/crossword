@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#f8f9fa"/>
+  
+  <!-- Person thinking -->
+  <circle cx="150" cy="150" r="70" fill="#6366f1" opacity="0.9"/>
+  <path d="M150,220 L150,300 Q150,320 170,320 L230,320 Q250,320 250,300 L250,280" fill="none" stroke="#6366f1" stroke-width="10"/>
+  
+  <!-- Thought bubble -->
+  <circle cx="230" cy="120" r="15" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <circle cx="260" cy="100" r="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <circle cx="300" cy="80" r="30" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Crossword in thought bubble -->
+  <g transform="translate(350, 150) scale(0.8)">
+    <!-- Crossword grid -->
+    <rect x="-100" y="-100" width="200" height="200" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+    
+    <!-- Horizontal lines -->
+    <line x1="-100" y1="-50" x2="100" y2="-50" stroke="#333333" stroke-width="1"/>
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#333333" stroke-width="1"/>
+    <line x1="-100" y1="50" x2="100" y2="50" stroke="#333333" stroke-width="1"/>
+    
+    <!-- Vertical lines -->
+    <line x1="-50" y1="-100" x2="-50" y2="100" stroke="#333333" stroke-width="1"/>
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#333333" stroke-width="1"/>
+    <line x1="50" y1="-100" x2="50" y2="100" stroke="#333333" stroke-width="1"/>
+    
+    <!-- Black squares -->
+    <rect x="-100" y="-100" width="50" height="50" fill="#333333"/>
+    <rect x="50" y="-100" width="50" height="50" fill="#333333"/>
+    <rect x="-50" y="-50" width="50" height="50" fill="#333333"/>
+    <rect x="50" y="0" width="50" height="50" fill="#333333"/>
+    <rect x="-100" y="50" width="50" height="50" fill="#333333"/>
+    <rect x="0" y="50" width="50" height="50" fill="#333333"/>
+    
+    <!-- Sample letters -->
+    <text x="-75" y="-25" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+    <text x="-25" y="-75" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">L</text>
+    <text x="25" y="-25" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+    <text x="75" y="-75" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Y</text>
+    <text x="-75" y="25" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">F</text>
+    <text x="-25" y="25" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">U</text>
+    <text x="25" y="75" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">N</text>
+    <text x="75" y="25" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle">!</text>
+  </g>
+  
+  <!-- Steps -->
+  <g transform="translate(100, 350)">
+    <circle cx="0" cy="0" r="15" fill="#4caf50" stroke="#333333" stroke-width="1"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">1</text>
+    <text x="30" y="5" font-family="Arial" font-size="14" text-anchor="start" dominant-baseline="middle">阅读提示</text>
+  </g>
+  
+  <g transform="translate(250, 350)">
+    <circle cx="0" cy="0" r="15" fill="#ff9800" stroke="#333333" stroke-width="1"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="30" y="5" font-family="Arial" font-size="14" text-anchor="start" dominant-baseline="middle">填写答案</text>
+  </g>
+  
+  <g transform="translate(400, 350)">
+    <circle cx="0" cy="0" r="15" fill="#f44336" stroke="#333333" stroke-width="1"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">3</text>
+    <text x="30" y="5" font-family="Arial" font-size="14" text-anchor="start" dominant-baseline="middle">完成谜题</text>
+  </g>
+</svg>
